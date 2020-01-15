@@ -1,0 +1,13 @@
+
+<p>
+  Signature Component
+</p>
+<div style="border: dashed 2px gray; width: 70%; margin:auto;">
+  <canvas width="830" height="233" #signatureCanvas></canvas>
+</div>
+<div style="padding-top: 15px;">
+  <button mat-raised-button color="primary" style="margin-right: 8px;" (click)="savePNG()">Save as PNG</button>
+  <button mat-raised-button color="primary" style="margin-right: 8px;" (click)="saveJPG()">Save as JPG</button>
+  <button mat-raised-button color="primary" style="margin-right: 8px;" (click)="saveSVG()">Save as SVG</button>
+  <button mat-raised-button color="basic" style="margin-right: 8px;" (click)="clear()">Clear</button>
+</div>
